@@ -70,8 +70,8 @@ public class User implements Serializable{
 		return phone;
 	}
 
-	public void setPhone(String phone) {
-		this.phone = phone;
+	public void setPhone(String object) {
+		this.phone = object;
 	}
 
 	public String getPassword() {
